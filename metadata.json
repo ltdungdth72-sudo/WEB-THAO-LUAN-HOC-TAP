@@ -1,0 +1,6 @@
+{
+  "name": "Phòng Thảo Luận Số – Bản Quyền Tin Học 10",
+  "description": "Hệ thống thảo luận trực tuyến 12 nhóm về bản quyền nội dung số – Tin học 10, THPT Đinh Tiên Hoàng – Giáo viên Lê Thị Dung.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
