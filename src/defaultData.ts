@@ -3,18 +3,23 @@ import type { ClassroomSession, GroupSubmission, TeacherFeedback, TopicConfig, Q
 export const DEFAULT_QUESTIONS: QuestionConfig[] = [
   {
     id: 1,
-    question: "Hành vi nào có vấn đề?",
-    hint: "Chỉ ra cụ thể hành động trong tình huống chưa phù hợp hoặc có dấu hiệu vi phạm quyền tác giả/bản quyền nội dung số."
+    question: "1. Ai là người trực tiếp sáng tạo ra sản phẩm?",
+    hint: "Xác định rõ cá nhân/tác giả đã trực tiếp bỏ công sức, trí tuệ để sáng tạo ra sản phẩm (áp phích) trong tình huống."
   },
   {
     id: 2,
-    question: "Quyền lợi của tác giả có thể bị ảnh hưởng như thế nào?",
-    hint: "Phân tích tác động đến quyền tài sản (thu nhập, chi phí sáng tạo) và quyền nhân thân (tên tuổi, uy tín, quyền toàn vẹn tác phẩm)."
+    question: "2. Việc xóa tên tác giả và đăng lại sản phẩm có phù hợp không? Vì sao?",
+    hint: "Đánh giá về tính pháp lý (Luật Sở hữu trí tuệ), đạo đức số và quyền nhân thân của tác giả khi bị xóa tên."
   },
   {
     id: 3,
-    question: "Cần làm gì để sử dụng nội dung phù hợp?",
-    hint: "Đề xuất các bước và giải pháp văn minh, đúng pháp luật: mua bản quyền, xin phép tác giả, kiểm tra giấy phép mở (Creative Commons), ghi nguồn trích dẫn đúng quy cách..."
+    question: "3. Quyền tác giả trong tình huống này liên quan đến những quyền nào?",
+    hint: "Phân tích quyền nhân thân (đứng tên, bảo vệ sự toàn vẹn tác phẩm) và quyền tài sản (phân phối, sử dụng tác phẩm)."
+  },
+  {
+    id: 4,
+    question: "4. Nếu muốn sử dụng áp phích của An, em nên làm gì?",
+    hint: "Nêu các bước văn minh, đúng pháp luật: liên hệ xin phép tác giả An, ghi rõ nguồn và tên tác giả, tôn trọng sự toàn vẹn tác phẩm..."
   }
 ];
 
@@ -80,9 +85,10 @@ export function createInitialSubmissions(): Record<number, GroupSubmission> {
       answer1: "",
       answer2: "",
       answer3: "",
+      answer4: "",
       status: "not_started",
       updatedAt: new Date().toISOString(),
-      wordCount: { ans1: 0, ans2: 0, ans3: 0, total: 0 }
+      wordCount: { ans1: 0, ans2: 0, ans3: 0, ans4: 0, total: 0 }
     };
   }
   return submissions;

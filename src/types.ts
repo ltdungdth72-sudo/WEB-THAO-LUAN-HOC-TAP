@@ -27,6 +27,7 @@ export interface GroupSubmission {
   answer1: string;
   answer2: string;
   answer3: string;
+  answer4?: string;
   status: SubmissionStatus;
   submittedAt?: string;
   updatedAt: string;
@@ -35,6 +36,7 @@ export interface GroupSubmission {
     ans1: number;
     ans2: number;
     ans3: number;
+    ans4?: number;
     total: number;
   };
 }

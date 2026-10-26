@@ -1,0 +1,391 @@
+{
+  "session": {
+    "sessionId": "tin-hoc-10-ban-quyen-dth",
+    "className": "Tin học 10",
+    "teacherName": "Lê Thị Dung",
+    "schoolName": "THPT Đinh Tiên Hoàng",
+    "subject": "Tin học 10",
+    "lessonName": "Bản quyền nội dung số, quyền lợi của tác giả và cách sử dụng nội dung số phù hợp",
+    "isSubmissionsOpen": true,
+    "allowEditAfterSubmit": true,
+    "teacherPin": "1010",
+    "createdAt": "2026-10-26T21:02:12.123Z",
+    "updatedAt": "2026-10-26T21:02:12.123Z",
+    "topics": [
+      {
+        "id": 1,
+        "title": "Chủ đề 1: Phần mềm trả phí và bản quyền",
+        "situation": "Một học sinh tải phần mềm trả phí từ nguồn không chính thức và dùng bản đã bẻ khóa.",
+        "groupNumbers": [
+          1,
+          2,
+          3
+        ],
+        "icon": "software",
+        "colorTag": "blue"
+      },
+      {
+        "id": 2,
+        "title": "Chủ đề 2: Sử dụng hình ảnh trên Internet",
+        "situation": "Lấy ảnh trên Internet đưa vào bài trình chiếu, không ghi nguồn và không kiểm tra điều kiện sử dụng.",
+        "groupNumbers": [
+          4,
+          5,
+          6
+        ],
+        "icon": "image",
+        "colorTag": "emerald"
+      },
+      {
+        "id": 3,
+        "title": "Chủ đề 3: Sử dụng bài hát làm nhạc nền",
+        "situation": "Dùng một bài hát nổi tiếng làm nhạc nền cho video của lớp rồi đăng công khai lên mạng xã hội.",
+        "groupNumbers": [
+          7,
+          8,
+          9
+        ],
+        "icon": "music",
+        "colorTag": "purple"
+      },
+      {
+        "id": 4,
+        "title": "Chủ đề 4: Sử dụng hình ảnh có giấy phép",
+        "situation": "Tải một hình ảnh có giấy phép sử dụng, nhưng chưa đọc điều kiện giấy phép trước khi chỉnh sửa và đăng lại.",
+        "groupNumbers": [
+          10,
+          11,
+          12
+        ],
+        "icon": "license",
+        "colorTag": "amber"
+      }
+    ],
+    "questions": [
+      {
+        "id": 1,
+        "question": "1. Ai là người trực tiếp sáng tạo ra sản phẩm?",
+        "hint": "Xác định rõ cá nhân/tác giả đã trực tiếp bỏ công sức, trí tuệ để sáng tạo ra sản phẩm (áp phích) trong tình huống."
+      },
+      {
+        "id": 2,
+        "question": "2. Việc xóa tên tác giả và đăng lại sản phẩm có phù hợp không? Vì sao?",
+        "hint": "Đánh giá về tính pháp lý (Luật Sở hữu trí tuệ), đạo đức số và quyền nhân thân của tác giả khi bị xóa tên."
+      },
+      {
+        "id": 3,
+        "question": "3. Quyền tác giả trong tình huống này liên quan đến những quyền nào?",
+        "hint": "Phân tích quyền nhân thân (đứng tên, bảo vệ sự toàn vẹn tác phẩm) và quyền tài sản (phân phối, sử dụng tác phẩm)."
+      },
+      {
+        "id": 4,
+        "question": "4. Nếu muốn sử dụng áp phích của An, em nên làm gì?",
+        "hint": "Nêu các bước văn minh, đúng pháp luật: liên hệ xin phép tác giả An, ghi rõ nguồn và tên tác giả, tôn trọng sự toàn vẹn tác phẩm..."
+      }
+    ]
+  },
+  "submissions": {
+    "1": {
+      "groupId": 1,
+      "groupNumber": 1,
+      "topicId": 1,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "2": {
+      "groupId": 2,
+      "groupNumber": 2,
+      "topicId": 1,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "3": {
+      "groupId": 3,
+      "groupNumber": 3,
+      "topicId": 1,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "4": {
+      "groupId": 4,
+      "groupNumber": 4,
+      "topicId": 2,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "5": {
+      "groupId": 5,
+      "groupNumber": 5,
+      "topicId": 2,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "6": {
+      "groupId": 6,
+      "groupNumber": 6,
+      "topicId": 2,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "7": {
+      "groupId": 7,
+      "groupNumber": 7,
+      "topicId": 3,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "8": {
+      "groupId": 8,
+      "groupNumber": 8,
+      "topicId": 3,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "9": {
+      "groupId": 9,
+      "groupNumber": 9,
+      "topicId": 3,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "10": {
+      "groupId": 10,
+      "groupNumber": 10,
+      "topicId": 4,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "11": {
+      "groupId": 11,
+      "groupNumber": 11,
+      "topicId": 4,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    },
+    "12": {
+      "groupId": 12,
+      "groupNumber": 12,
+      "topicId": 4,
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "updatedAt": "2026-10-26T21:02:12.126Z",
+      "wordCount": {
+        "ans1": 0,
+        "ans2": 0,
+        "ans3": 0,
+        "total": 0
+      }
+    }
+  },
+  "feedbacks": {
+    "1": {
+      "groupId": 1,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "2": {
+      "groupId": 2,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "3": {
+      "groupId": 3,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "4": {
+      "groupId": 4,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "5": {
+      "groupId": 5,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "6": {
+      "groupId": 6,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "7": {
+      "groupId": 7,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "8": {
+      "groupId": 8,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "9": {
+      "groupId": 9,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "10": {
+      "groupId": 10,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "11": {
+      "groupId": 11,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    },
+    "12": {
+      "groupId": 12,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "isReviewed": false,
+      "isPublishedToStudent": false
+    }
+  }
+}

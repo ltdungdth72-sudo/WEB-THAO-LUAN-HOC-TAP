@@ -40,6 +40,7 @@ export const StudentView: React.FC<StudentViewProps> = ({ session, onBackToHome 
   const [answer1, setAnswer1] = useState('');
   const [answer2, setAnswer2] = useState('');
   const [answer3, setAnswer3] = useState('');
+  const [answer4, setAnswer4] = useState('');
   const [teacherFeedback, setTeacherFeedback] = useState<TeacherFeedback | null>(null);
 
   const [syncStatus, setSyncStatus] = useState<'synced' | 'saving' | 'offline' | 'error'>('synced');
@@ -69,7 +70,8 @@ export const StudentView: React.FC<StudentViewProps> = ({ session, onBackToHome 
   const count1 = getWordCount(answer1);
   const count2 = getWordCount(answer2);
   const count3 = getWordCount(answer3);
-  const totalWords = count1 + count2 + count3;
+  const count4 = getWordCount(answer4);
+  const totalWords = count1 + count2 + count3 + count4;
 
   // Selected group's topic
   const selectedTopic: TopicConfig | undefined = selectedGroupId

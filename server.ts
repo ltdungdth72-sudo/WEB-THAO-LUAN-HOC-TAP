@@ -160,7 +160,7 @@ app.get('/api/submissions/:groupId', (req: Request, res: Response) => {
 
 // REST API: Student submit answers or save draft
 app.post('/api/submissions', (req: Request, res: Response) => {
-  const { groupId, answer1 = '', answer2 = '', answer3 = '', status = 'submitted', clientDeviceId } = req.body;
+  const { groupId, answer1 = '', answer2 = '', answer3 = '', answer4 = '', status = 'submitted', clientDeviceId } = req.body;
   const gId = Number(groupId);
 
   if (isNaN(gId) || gId < 1 || gId > 12) {
@@ -182,7 +182,8 @@ app.post('/api/submissions', (req: Request, res: Response) => {
     ans1: countWords(answer1),
     ans2: countWords(answer2),
     ans3: countWords(answer3),
-    total: countWords(answer1) + countWords(answer2) + countWords(answer3)
+    ans4: countWords(answer4),
+    total: countWords(answer1) + countWords(answer2) + countWords(answer3) + countWords(answer4)
   };
 
   let newStatus = existing.status;
@@ -203,6 +204,7 @@ app.post('/api/submissions', (req: Request, res: Response) => {
     answer1: String(answer1),
     answer2: String(answer2),
     answer3: String(answer3),
+    answer4: String(answer4),
     status: newStatus,
     submittedAt: status === 'submitted' ? (existing.submittedAt || new Date().toISOString()) : existing.submittedAt,
     updatedAt: new Date().toISOString(),
