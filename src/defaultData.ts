@@ -1,4 +1,4 @@
-import { ClassroomSession, GroupSubmission, TeacherFeedback, TopicConfig, QuestionConfig } from './types.ts';
+import type { ClassroomSession, GroupSubmission, TeacherFeedback, TopicConfig, QuestionConfig } from './types.ts';
 
 export const DEFAULT_QUESTIONS: QuestionConfig[] = [
   {
